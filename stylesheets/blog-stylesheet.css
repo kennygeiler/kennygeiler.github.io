@@ -1,0 +1,20 @@
+h1 {
+  border:2px solid;
+  display:inline-block;
+  font-size:70px;
+}
+
+h2 {
+  text-decoration:underline;
+  display:inline-block;
+}
+
+.side-image {
+  display:inline-block;
+  margin:auto;
+  margin-left: 300px;
+}
+
+h4 {
+  font-style:italic;
+}
