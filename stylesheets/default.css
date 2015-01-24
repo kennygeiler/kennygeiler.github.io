@@ -1,0 +1,68 @@
+* {
+  background-color: #E6E6E6;
+}
+
+#header {
+display: inline-flex;
+    padding: 50px;
+}
+
+#header h1 {
+
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+#navbar {
+  float: right;
+  margin-top: 190px;
+  margin-right: 50px;
+  font-size: 22px;
+
+}
+
+#navbar a {
+  text-decoration: none;
+  color: indigo;
+
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+#navbar ul {
+  display: inline-flex;
+}
+
+.placement {
+  margin: 15px;
+}
+
+#recentblog {
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+  clear: both;
+}
+
+#SocialMedia {
+  float: right;
+  clear: both;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.portformat {
+  display: inline-flex;
+  margin: 50px;
+}
+
+.portfolioitem {
+  margin-right: 25px;
+}
+
+#blogformat {
+  margin-right: 250px;
+}

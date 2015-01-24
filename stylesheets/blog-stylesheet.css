@@ -1,20 +1,22 @@
-h1 {
-  border:2px solid;
-  display:inline-block;
-  font-size:70px;
+.blogtitle {
+  border-bottom: 2px solid #a0b0c8;
+  color: #414d5f;
+  display:block;
+  font-size: 2em;
 }
 
-h2 {
-  text-decoration:underline;
-  display:inline-block;
+.tldr {
+  font-family: Georgia;
 }
 
-.side-image {
-  display:inline-block;
-  margin:auto;
-  margin-left: 300px;
+
+.blogsubtitle {
+  text-decoration:none;
+  display:block;
 }
 
-h4 {
+.blogdate {
   font-style:italic;
+  border-bottom: 4px solid #a0b0c8;
+
 }
