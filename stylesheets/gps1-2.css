@@ -1,0 +1,70 @@
+
+       body {
+           background-color: beige;
+           font-family: Slabo+27px, Arial, sans-serif;
+       }
+        header h1, h2, img {
+            display: inline-block;
+        }
+
+        header img {
+            margin: 15px 0 0 15px;
+        }
+
+        header h1 {
+           position: relative;
+           top: -50px;
+           padding-left: 15px;
+           width: 300px;
+           color: green;
+        }
+
+        header h2 {
+            position: relative;
+           top: -50px;
+           text-align: right;
+           width: 200px;
+           padding-left: 35px;
+           color: green;
+        }
+
+        nav {
+
+          float: right;
+
+
+        }
+
+        nav li  {
+            list-style-type: none;
+            margin-right: 20px;
+            padding-bottom: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+
+        }
+
+        nav h3 {
+            color: green;
+            text-indent: 35px;
+        }
+
+        section {
+          margin-left: 40px;
+          margin-right: 270px;
+
+        }
+
+        section h4 {
+            color: green;
+            font-size: large;
+            font-variant: small-caps;
+            font-family: Helvetica;
+        }
+
+        section p {
+            font-family: Slabo+27px, Helvetica, sans-serif;
+            line-height: 1.8em;
+        }
