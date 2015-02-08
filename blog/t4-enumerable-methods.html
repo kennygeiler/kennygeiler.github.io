@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  <title>Technical Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+
+
+  <h3 class="blogtitle">Technical Blog Post #4</h3>
+  <h4 class="blogsubtitle">Researching Ruby methods</h4>
+  <h4 class="tldr">All about the cycle method!</h4>
+  <h4 class="blogdate">Sunday, Feburary 8th, 2015</h4>
+
+  <section>
+    <p>
+      The Ruby method that I will be researching today is #cycle. After reading the Ruby Docs on this method, it seems that is it a powerful method that could be used in place of a while loop. Calling cycle on an array will infinitely print out the elements of the array. Also, if you definete a parameter for the method like .cycle(2), the result will be the array printed out twice. This can be very useful for different situations involving while loops. Cycle can even take advantage of the break command that stops an infinite loop at a certain point. An example of this is:
+      <br>
+        days_of_week.cycle {|day| puts day}
+        <br>
+        => Monday
+        <br>
+        Tuesday
+        <br>
+        Wednesday
+        <br>
+        Thursday
+        <br>
+        Friday
+        <br>
+        Saturday
+        <br>
+        Sunday
+        <br>
+        Monday
+        <br>
+        Tuesday
+        <br>
+        ...
+        <br>
+        source: (http://www.globalnerdy.com/2008/07/06/enumerating-enumerable-enumerablecycle/)
+<br>
+        days_of_week.cycle do |day|
+        <br>
+        puts day
+        <br>
+        break if day == "Friday"
+        <br>
+        end
+        <br>
+        Tuesday
+        <br>
+        Wednesday
+        <br>
+        Thursday
+        <br>
+        Friday
+        <br>
+        => nil
+        <br>
+
+    </p>
+
+
+
+  </section>
+
+
+</main>

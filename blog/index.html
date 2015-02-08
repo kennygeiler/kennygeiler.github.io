@@ -77,7 +77,68 @@
     <p>
         Re-reading the list of thinking styles, I find myself wanting to pick and chose from the different types rather than just stick with one. I strongly agree with the styles of the abstract random but I also see myself under concrete random becuase of my willingess to take risks and use my intuition. I can help learn more at DBC by being able to identify how my brain works best and what working environments I am most comfortbale in. Knowing that I like broad guidlines and independent space to work in will help me make the most of my time in the program. Also, knowing that I work well with friends will help me want to get to know my peers better and to create a friendship with them. So far at DBC, my biggest struggle has just been grasping my mind around ruby. It is such a vast language and I am now realizing how much I will have to learn in order to fully use its power. I am scared, but am willing to take on the challenge. I know that the growth mindset will be needed here because every day I have to adjust my thought process and accept that its okay to not know a lot of things because it is new to me and I should put being the best aside and just want to learn the most possible.
     </p>
-  </div
+  </div>
+   <div class="blog post">
+    <h3 class="blogtitle">Technical Blog Post #4</h3>
+  <h4 class="blogsubtitle">Researching Ruby methods</h4>
+  <h4 class="tldr">All about the cycle method!</h4>
+  <h4 class="blogdate">Sunday, Feburary 8th, 2015</h4>
+    <p>
+        The Ruby method that I will be researching today is #cycle. After reading the Ruby Docs on this method, it seems that is it a powerful method that could be used in place of a while loop. Calling cycle on an array will infinitely print out the elements of the array. Also, if you definete a parameter for the method like .cycle(2), the result will be the array printed out twice. This can be very useful for different situations involving while loops. Cycle can even take advantage of the break command that stops an infinite loop at a certain point. An example of this is:
+      <br>
+        days_of_week.cycle {|day| puts day}
+        <br>
+        => Monday
+        <br>
+        Tuesday
+        <br>
+        Wednesday
+        <br>
+        Thursday
+        <br>
+        Friday
+        <br>
+        Saturday
+        <br>
+        Sunday
+        <br>
+        Monday
+        <br>
+        Tuesday
+        <br>
+        ...
+        <br>
+        source: (http://www.globalnerdy.com/2008/07/06/enumerating-enumerable-enumerablecycle/)
+<br>
+        days_of_week.cycle do |day|
+        <br>
+        puts day
+        <br>
+        break if day == "Friday"
+        <br>
+        end
+        <br>
+        Tuesday
+        <br>
+        Wednesday
+        <br>
+        Thursday
+        <br>
+        Friday
+        <br>
+        => nil
+        <br>
+    </p>
+  </div>
+   <div class="blog post">
+    <h3 class="blogtitle">Cultural Blog Post #4</h3>
+  <h4 class="blogsubtitle">Exploring Problems in the Tech Industry </h4>
+  <h4 class="tldr">Women in the Tech industry</h4>
+  <h4 class="blogdate">Sunday, Feburary 8th, 2015</h4>
+    <p>
+ One of the biggest problems facing the tech world today has nothing to do with technology itself. How is that possible one may ask? Well, it turns out, a major problem with the tech world is its culture. It is no secret that the tech world is domianted by males. There are countless tales of women being outnumbed and uncomfortable in the workplace. Women report feeling discrimination based on their age, race, sexuality, and the prospects of motherhood. In a fortune.com article surverying 716 women in the tech industry who have left the tech industry who have left mainly because they have no desire to work in the industry. Is it because its too hard? No. The major reason is the workplace environment was so bad that 465 of the women survery ended up not working at all, 251 are working in a non-tech job, and 45 of them are now running their own companies. One may think there are a lack of women in tech, which can cause them to be outnumbered. Incorrect. Top computer science colleges like Stanford accept apx. 50% males and females. The only way to fix this problem is to fix the entire culture of the tech industry workplace, and destory the out-dated views of male dominance in the workplace.
+    </p>
+  </div>
 </div>
 </div>
 <div id="footer">
