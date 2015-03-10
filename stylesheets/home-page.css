@@ -1,0 +1,31 @@
+body {
+  background-image: url('background.jpg');
+}
+
+.text-center {
+  font-family: Georgia;
+  font-size: 10em;
+  color: white;
+  margin-top: 200px;
+}
+
+
+
+.nav {
+  background: transparent;
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+  padding: 50px;
+  margin-left: 300px;
+}
+
+.nav a {
+  color: #F5F5F5;
+  padding: 50px;
+}
+
+.nav a:hover {
+    color: red;
+}
+
