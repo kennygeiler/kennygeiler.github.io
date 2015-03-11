@@ -1,67 +1,42 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title> Welcome to My Blog </title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css" / >
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css" / >
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css" / >
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-page.css" / >
+
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+  </head>
   <body>
-<div id="header">
-  <img src ="http://placehold.it/250x150" alt=""/>
-  <h1> Blog by Kenny Geiler </h1>
-</div>
+ <div class="container">
 
-<div id="navbar">
-<ul>
-  <li class="placement"> <a href="../index.html">Home</a> </li>
-  <li class="placement"> <a href="#">About Me</a> </li>
-  <li class="placement"> <a href="../blog/index.html">Blog</a> </li>
-  <li class="placement"> <a href="#">Contact</a> </li>
-</ul>
-</div>
-
-<div id="recentblog">
-  <h3>Recent Blog Posts</h3>
-  <ul>
-    <li><a href="#">First Blog Post</a></li>
-  </ul>
-</div>
-
-<div id="SocialMedia">
-  <h3> Social Media </h3>
-  <ul>
-    <li><a href="#">Email Me!</a></li>
-    <li><a href="#">Twitter</a></li>
-    <li><a href="#">Github</a></li>
-    <li><a href="#">Linkedin</a></li>
-  </ul>
-</div>
-
-<div id="blog">
-<div id="blogformat">
-  <h2>Blog</h2>
-  <div id="blurb">
-    <p>Thank you for checking out my blog. Here you will find my thoughts and feelings about my expirences at DBC. I hope these posts can help you understand what its like to be a part of this community and learn some basic concepts of being a developer!</p>
+  <div class="intro">
+    <h3> Welcome to my Development Bootcamp Blog </h3>
   </div>
-  <div class="blog post">
+  <div class="row1 clearfix">
+    <div class="col-md-12 column">
+      <div class="blog post">
     <h3 class="blogtitle">First Technical Blog Post</h3>
     <h4 class="blogsubtitle">Week 1 Recap</h4>
-    <h4 class="tldr">All about version control & Git/Github</h4>
-    <h4 class="blogdate">Friday the 16th, 2015</h4>
+
     <p>Version control is an extremely useful tool for developers. Using version control allows developers to venture and make changes to code without worrying about altering previous code. In addition, version control saves all edits so if mistakes are made, developers can go back to previous versions of the code. Git, which is a version control system, helps keep track of these changes. Whenever a change is made to code or a file, it is logged in git and the user can check all of the previous changes through git. Paired with git is GitHub. While git stores all of your versions locally on your computer, GitHub stores them online for you to share with your peers. This is essential for teams that work on the same code and need to view eachother's work seamlessly and easily.</p>
   </div>
   <div class="blog post">
     <h3 class="blogtitle">Cultural Blog Post #1</h3>
     <h4 class="blogsubtitle">Week 1 Expirences</h4>
-    <h4 class="tldr">Thoughts & Feelings about first week at Dev Bootcamp</h4>
-    <h4 class="blogdate">Friday the 16th, 2015</h4>
+
     <p>So far, about five days into my DBC expirence, I am satisfied with the amount that I have learnd and excited for things in the coming weeks. Although this week's challenges have not been too challenging, I still feel like a lot was learned, espescially in naviagating through the command line. The culture of DBC seems forgien to me still as it is wierd to be going through the same challenges and lessons as people across the country without ever seeing them in person (until the on-site that is). I can already see that the people in my cohort are kind and dedicated and I am looking forward to becoming closer with them as we all take the journey to be better programmers. My expections are pretty broad at this point because I do not know how I will fair as the challegnes get tougher but as of now I am grasping the material and feel confident for the future. I have to admit I am slightly nervous about the group pairing sessions as I do not want to hold anyone down or be the student who is considered worse at coding. Hopefully, this fear will be abolished in the coming week, but only time will tell.</p>
   </div>
   <div class="blog post">
     <h3 class="blogtitle">Arrays & Hashes</h3>
   <h4 class="blogsubtitle">All about arrays and hashes</h4>
-  <h4 class="tldr">The comparing and contrasting of the different aspects of arrays and hashes</h4>
-  <h4 class="blogdate">Friday, January 30th, 2015</h4>
+
     <p>
         In Ruby, arrays and hashes are very useful tools for working with lists of stored information. Arrays and hashes can hold different types of objects ranging from strings to integers to floats. An array is an ordered list, whose position can be asseced through integers. A hash is more of a collection of key/value pairs. Hashes point objects to other objects giving them meaning while arrays are an ordered list of objects. Therefore, it is easier to access elements of an array, but the use of hashes results in more flexibility.
     </p>
@@ -70,8 +45,7 @@
 
   <h3 class="blogtitle">Cultural Blog Post #3</h3>
   <h4 class="blogsubtitle">Thinking Style</h4>
-  <h4 class="tldr">Thoughts on DBC thus far and what my thinking style is</h4>
-  <h4 class="blogdate">Friday, January 30th, 2015</h4>
+
 
 
     <p>
@@ -81,8 +55,7 @@
    <div class="blog post">
     <h3 class="blogtitle">Technical Blog Post #4</h3>
   <h4 class="blogsubtitle">Researching Ruby methods</h4>
-  <h4 class="tldr">All about the cycle method!</h4>
-  <h4 class="blogdate">Sunday, Feburary 8th, 2015</h4>
+
     <p>
         The Ruby method that I will be researching today is #cycle. After reading the Ruby Docs on this method, it seems that is it a powerful method that could be used in place of a while loop. Calling cycle on an array will infinitely print out the elements of the array. Also, if you definete a parameter for the method like .cycle(2), the result will be the array printed out twice. This can be very useful for different situations involving while loops. Cycle can even take advantage of the break command that stops an infinite loop at a certain point. An example of this is:
       <br>
@@ -133,8 +106,7 @@
    <div class="blog post">
     <h3 class="blogtitle">Cultural Blog Post #4</h3>
   <h4 class="blogsubtitle">Exploring Problems in the Tech Industry </h4>
-  <h4 class="tldr">Women in the Tech industry</h4>
-  <h4 class="blogdate">Sunday, Feburary 8th, 2015</h4>
+
     <p>
  One of the biggest problems facing the tech world today has nothing to do with technology itself. How is that possible one may ask? Well, it turns out, a major problem with the tech world is its culture. It is no secret that the tech world is domianted by males. There are countless tales of women being outnumbed and uncomfortable in the workplace. Women report feeling discrimination based on their age, race, sexuality, and the prospects of motherhood. In a fortune.com article surverying 716 women in the tech industry who have left the tech industry who have left mainly because they have no desire to work in the industry. Is it because its too hard? No. The major reason is the workplace environment was so bad that 465 of the women survery ended up not working at all, 251 are working in a non-tech job, and 45 of them are now running their own companies. One may think there are a lack of women in tech, which can cause them to be outnumbered. Incorrect. Top computer science colleges like Stanford accept apx. 50% males and females. The only way to fix this problem is to fix the entire culture of the tech industry workplace, and destory the out-dated views of male dominance in the workplace.
     </p>
@@ -142,8 +114,7 @@
    <div class="blog post">
    <h3 class="blogtitle">Technical Blog Post #5</h3>
   <h4 class="blogsubtitle">All about classes</h4>
-  <h4 class="tldr">Classes, instance variables, methods, and more!</h4>
-  <h4 class="blogdate">Sunday, Febuary 15th</h4>
+
 
     <p>
       Classes are the best. When you need to create something that can serve a purpose for different inputs at different times without re-writing methods every time, a class is the ideal solution. When you create a class you are creating a block of code that holds methods and variabls that can be called on different inputs over and over. For example, a class I recently created tested the valididity of a credit card number. Therefore, any time I am given a number, I can create a instance of that class and call the methods I wrote to test that given number. The best part about classes is the ability to carry variables through different methods and modify them. These are called instance variables. They are defined once at the top of a class and you can call them throughout in any method and modify them along the way. You make make your life even eaier with attributes that allow varaibles to be written and called througout a class without having to create a method for them.
@@ -153,8 +124,7 @@
    <div class="blog post">
      <h3 class="blogtitle">Cultural Blog Post #5</h3>
   <h4 class="blogsubtitle">Pairing & Feedback</h4>
-  <h4 class="tldr">All about how its like to pair and write/recieve feedback</h4>
-  <h4 class="blogdate">Sunday, Febuary 15th</h4>
+
 
 
     <p>
@@ -167,8 +137,7 @@
 
   <h3 class="blogtitle">Technical Blog Post #6</h3>
   <h4 class="blogsubtitle">All about variable scope</h4>
-  <h4 class="tldr">The different types of variables and how/why that affects your code</h4>
-  <h4 class="blogdate">Sunday, Febuary 22nd</h4>
+
 
 
     <p>
@@ -181,8 +150,7 @@
   <div class="blog post">
      <h3 class="blogtitle">Cultural Blog Post #6</h3>
   <h4 class="blogsubtitle">The Stereotype Threat</h4>
-  <h4 class="tldr">Ways to address and change the threats of stereotypes</h4>
-  <h4 class="blogdate">Sunday, Febuary 22nd</h4>
+
 
     <p>
       Stereotype threat is the feeling of perpetuating negative stereotypes about your race or social group. I have not felt this personally and cannot directly identify with this. However, I have friends of mine who have expirenced this before.I can imagine it is a very scary feeling to think that you are becoming what a stereotye says you are. You always tell yourself that its just a generalization and not you but when you see yourself possibly going down the path of the stereotype you may think its supposed to be true and give in to it. I don't know how I could directly help with this but in general stereotypes are perpetuated by people who believe they are true. If individuals rid these stereotypes from their mind then, slowly, they will cease to exist.
@@ -195,8 +163,7 @@
 
   <h3 class="blogtitle">Technical Blog Post #7</h3>
   <h4 class="blogsubtitle">Differences in ruby and javascript</h4>
-  <h4 class="tldr">Objects vs Hashes</h4>
-  <h4 class="blogdate">Saturday, February 28th</h4>
+
 
     <p>
       What are javascript objects? Well, in javascript you create an object and manipulate it by writing properties to it like name, age, etc. This holds data like a hash holds data in Ruby. The major difference is that a javascript object is a collection of properties that references other objects, but a ruby object holds a hash of variables that reference other objects. You can only access elements of a hash by calling it through the hash itself.
@@ -207,8 +174,7 @@
   <div class="blog post">
   <h3 class="blogtitle">Cultural Blog Post #7</h3>
   <h4 class="blogsubtitle">Exploring Values</h4>
-  <h4 class="tldr">My Values</h4>
-  <h4 class="blogdate">Saturday, February 28th</h4>
+
 
     <p>
       When I have been the happiest, the proudest, or the most satisfied, a few values come to mind: community, couage, and creativity. I try to live by these values strongly. I am always in touch with my community, I volunteer and help as much as I can in my local town and schools. I always try to be courageous with my actions and not let my peers or popular opinions shape how I act or think. And, creativity, is one of the most important values in life because expressing ones creativity allows for them to expirence life fully and more beautifully. Creativity is important because each person's view on one thing can differ so widely and the things that humans can do from their creativity has been showcased time and time again with amazing inventions and art. I would always promote this mindset in hopes of continuing creative thinking and progress in terms of technology, art, writing, etc. I was asked advice last on the values of leadership. Being close to a political familiy, I see a lot of the behind the scene of local politics. My values are in tune with understanding stereotype threat in terms of I would use my values to make sure that people don't feel that way.
@@ -220,8 +186,7 @@
 
   <h3 class="blogtitle">Cultural Blog Post # 8</h3>
   <h4 class="blogsubtitle">Conflict</h4>
-  <h4 class="tldr">Conflict in my life</h4>
-  <h4 class="blogdate">Sunday, March 8th</h4>
+
 
     <p>
       The last conflict I can remember that had an impact on my family was the purchasing of my current car. I wanted to get a stick shift car to go to the track but my family did not think it made sense to buy a car that only I could drive. We fought over the reasons why it did and didn't make sense to buy the car. Ultimately, we decided to get the car for two years. At first I was angry that my parents did not understand why I wanted the car and why it made sense to get it. Then, I felt guilty that I made them buy a car that did not make sense for our family. In the end, I decided to sell the car and get something more practical to help the family.
@@ -232,8 +197,7 @@
   <div class="blog post">
    <h3 class="blogtitle">Technical Blog Post # 8</h3>
   <h4 class="blogsubtitle">Recursion</h4>
-  <h4 class="tldr">All about Recursion</h4>
-  <h4 class="blogdate">Sunday, March 8th</h4>
+
 
     <p>
       Recursion is a complex topic, that can be broken into more simple ideas that are better for understanding. Recursion is best used when a larger task can be broken down into smaller tasks and have a repetitive routine that calls itself to to preform the smaller tasks. But first, there is a base case that is not repeated. Therefore writing a recursive method requires a base case and then a repetitive loop that can continuesly run to complete the task.
@@ -242,14 +206,14 @@
 
   </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </div>
+  </div>
 
-
-
-</div>
-</div>
-<div id="footer">
-  <h4>Thank you for visiting my website</h4>
-</div>
-
-    </body>
+  </body>
 </html>
+
+
+
+

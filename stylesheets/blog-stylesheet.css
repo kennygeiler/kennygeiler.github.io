@@ -1,22 +1,11 @@
 .blogtitle {
-  border-bottom: 2px solid #a0b0c8;
-  color: #414d5f;
+  color: black;
   display:block;
   font-size: 2em;
-}
-
-.tldr {
-  font-family: Georgia;
 }
 
 
 .blogsubtitle {
   text-decoration:none;
   display:block;
-}
-
-.blogdate {
-  font-style:italic;
-  border-bottom: 4px solid #a0b0c8;
-
 }

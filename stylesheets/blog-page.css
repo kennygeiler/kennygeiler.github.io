@@ -1,0 +1,28 @@
+body {
+  background-image: url('blog-background.jpg');
+}
+
+
+
+.row1 {
+  margin-right: 180px;
+  margin-left: 180px;
+  font-family: Georgia;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 30px;
+
+}
+
+.intro {
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+}
+
+
