@@ -3,8 +3,8 @@ body {
 }
 
 .text-center {
-  font-family: Georgia;
-  font-size: 10em;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 8em;
   color: white;
   margin-top: 200px;
 }
@@ -12,20 +12,23 @@ body {
 
 
 .nav {
-  background: transparent;
+  background: black;
+  opacity: .7;
   font-size: 3em;
   color: white;
   text-decoration: none;
-  padding: 50px;
-  margin-left: 300px;
+  padding: 30px;
+  margin-left: 250px;
+  margin-top: 70px;
 }
 
 .nav a {
+  opacity: 1;
   color: #F5F5F5;
   padding: 50px;
 }
 
 .nav a:hover {
-    color: red;
+    color: black;
 }
 

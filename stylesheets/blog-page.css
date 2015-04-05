@@ -9,16 +9,17 @@ body {
   margin-left: 180px;
   font-family: Georgia;
   background-color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 30px;
+  padding: 20px;
 
 }
 
 .intro {
+  opacity: .8;
   color: white;
-  font-size: 300%;
   text-align: center;
-  background-color: black;
+ background-color: black;
   margin-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
@@ -26,3 +27,8 @@ body {
 }
 
 
+.intro h2 {
+  font-size: 400%;
+  font-family: "Courier New", Courier, monospace;
+
+}
