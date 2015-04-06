@@ -11,13 +11,6 @@ body {
 }
 
 
-h3 {
-  color: white;
-  margin-left: 515px;
-  margin-right: 515px;
-  font-family: "Lucida Console", Monaco;
-  padding-top: 20px;
-}
 
 
 .nav {
@@ -27,7 +20,7 @@ h3 {
   color: white;
   text-decoration: none;
   padding: 30px;
-  margin-left: 250px;
+  margin-left: 230px;
   margin-top: 70px;
 }
 
